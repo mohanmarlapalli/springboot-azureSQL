@@ -1,6 +1,6 @@
 package com.javatechie.azure;
 
-public class Employee1 {
+public class Employees {
 	 private String name;
 	    private String dept;
 	    private long salary;
