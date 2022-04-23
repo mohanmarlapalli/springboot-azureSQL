@@ -18,7 +18,7 @@ public class SpringbootAzuresqlApplication {
     private EmployeeRepository repository;
  
     @PostMapping("/employee")
-    public Employee addEmployee(@RequestBody Employee1 employee) {
+    public Employee addEmployee(@RequestBody Employees employee) {
     	Employee emp = new Employee();
     	emp.setDept(employee.getDept());
     	emp.setName(employee.getName());
